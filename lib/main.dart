@@ -5,6 +5,7 @@ import "package:flutter/services.dart";
 
 import '101/list_view_learn.dart';
 import '101/navigation_learn.dart';
+import '202/model_learn_view.dart';
 import '202/tab_learn.dart';
 import 'demos/color_demos_view.dart';
 import 'demos/color_lifecycle_view.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
-      home: const TablearnView(),
+      home: const ModelLearnView(),
     );
   }
 }
